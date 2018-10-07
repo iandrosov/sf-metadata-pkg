@@ -1,9 +1,11 @@
 # sf-metadata-pkg
-Reference of Deployment tags for package.xml on supported Metadata types. While working with Salesforce Deployment tools like ANT and DX I continue to search for various metadata tags used by package.xml file. Unfortunate I did not fiund a single place where all is documented. 
+Reference of Deployment tags for package.xml on supported Metadata types. While working with Salesforce Deployment tools like [ANT Deployment tool](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ant.htm) and [Salesforce DX](https://developer.salesforce.com/platform/dx) I continue to search for various metadata tags used by package.xml file. Unfortunate I did not find a single place where all is documented. 
+[Metadata API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_objects_intro.htm) is a good resource but does not give all tags especially with naming of items differences.
 
-This guide is designed to give comprehensive list of tags adn examples uses that can be applied to package.xml to get or deploy different metadata items. code and declarative items.
 
-Below are examples of supported metadata types tyhat can be managed by Metadata API via ANT or DX tools
+This guide is a work ion progressa nd will b eupdated as more items are discovered. It is designed to give comprehensive list of tags and examples use cases that can be applied to package.xml to retrieve or deploy different metadata code and declarative items.
+
+Below are examples of supported metadata types that can be managed by Metadata API via ANT or DX tools
 
 ## Code Items Section
 
@@ -108,11 +110,11 @@ The example below describe layout for Cutom metadata
     </types>  
 ```  
 ### Flow or Process Builder
-Automation items such as Flows or Process Builders are represented by `Flow` tag.
+Automation items such as Flows or Process Builders are represented by `Flow` tag. Note a version number on flow tag after name indicates what version of PB or FLOW is used `Create_Lead_Activities-2`
 
 ```
     <types>
-        <members>Create_My_Inquiry_s_SOP_and_Activities-2</members>
+        <members>Create_Lead_Activities-2</members>
         <name>Flow</name>
     </types>
 ```
