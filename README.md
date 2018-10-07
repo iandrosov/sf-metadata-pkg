@@ -32,7 +32,7 @@ Below are examples of supported metadata types that can be managed by Metadata A
 ### Lightning Components
 
 ```
-	<types>
+    <types>
         <members>my_theme_footer</members>
         <members>my_theme_header</members>
         <name>AuraDefinitionBundle</name>
@@ -49,7 +49,7 @@ For standard object such as `Case` below tag will pull all customizations in sin
 For custom objects metadata will have complete object xml definition with all fields included.
 
 ```
-	<types>
+    <types>
         <members>Case</members>
         <members>MyCustomObject__c</members>
         <members>MyMeta_Settings__mdt</members>
@@ -60,7 +60,7 @@ For custom objects metadata will have complete object xml definition with all fi
 ### Custom Field
 
 ```
-	<types>
+    <types>
         <members>MyObject__c.Final_Test__c</members>
         <members>MyObject__c.Total__c</members>
         <members>Lead.SomeCustomField__c</members>
@@ -69,7 +69,7 @@ For custom objects metadata will have complete object xml definition with all fi
 ```
 ### Custom Metadata Type
 ```
-	<types>
+    <types>
         <members>MY_Settings.My_Community</members>
         <name>CustomMetadata</name>
     </types>
@@ -78,7 +78,7 @@ For custom objects metadata will have complete object xml definition with all fi
 Static resources are typically zip files containing images or JavaScript & CSS code or frameworks, data fiels, any file type. Static resources have org wide limit size: 250MB as of Winter '19 release.
 
 ```
-	<types>
+    <types>
         <members>SLDS203</members>
         <members>jquery_min_1_12_4</members>
         <members>w3css</members>
@@ -89,7 +89,7 @@ Static resources are typically zip files containing images or JavaScript & CSS c
 ### Quick Action
 
 ```
-	<types>
+    <types>
         <members>Opportunity.Open_My_Page</members>
         <name>QuickAction</name>
     </types>  
@@ -104,7 +104,7 @@ Static resources are typically zip files containing images or JavaScript & CSS c
 ### Page Layout
 The example below describe layout for Cutom metadata
 ```
-	<types>
+    <types>
         <members>MyMeta_Settings__mdt-My Settings Layout</members>
         <name>Layout</name>
     </types>  
@@ -136,7 +136,7 @@ Export all custom Labels defined in the org. Current Metadata can sdefine indivi
 ```
 ### Email Template
 ```
-	<types>
+    <types>
         <members>MyFolder/My_Test_Changed_Password</members>
         <members>MyFolder/My_Test_Forgot_Password</members>
         <members>NewFolder/My_Welcome_Email</members>
@@ -145,7 +145,7 @@ Export all custom Labels defined in the org. Current Metadata can sdefine indivi
 ```
 ### Workflow Field Update
 ```
-	<types>
+    <types>
         <members>Account.Email_Invalid</members>
         <members>Lead.Invalid_Email</members>
         <name>WorkflowFieldUpdate</name>
@@ -161,7 +161,7 @@ Export all custom Labels defined in the org. Current Metadata can sdefine indivi
 ```
 ### Record Type
 ```
-	<types>
+    <types>
         <members>Account.recordTypeName</members>
         <name>RecordType</name>
     </types>  
@@ -170,28 +170,28 @@ Export all custom Labels defined in the org. Current Metadata can sdefine indivi
 Assignment rules can be for Case or Lead or other objects.
 
 ```
-	<types>
+    <types>
         <members>Case.Case Assignment Rule</members>
         <name>AssignmentRule</name>
     </types>     
 ```
 ### Business Process
 ```
-	<types>
+    <types>
         <members>Case.Course Update Request</members>
         <name>BusinessProcess</name>
     </types>
 ```
 ### List View
 ```
-	<types>
+    <types>
         <members>Case.Course_Update_Cases</members>
         <name>ListView</name>
     </types>
 ```
 ### Permission Set
 ```
-	<types>
+    <types>
         <members>My_Process_Update_Request</members>
         <name>PermissionSet</name>
     </types>
