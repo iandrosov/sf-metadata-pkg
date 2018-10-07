@@ -12,21 +12,21 @@ Below are examples of supported metadata types that can be managed by Metadata A
 ### Apex Class
 
 ```
-	<types>
+<types>
         <members>CaseSelector</members>
         <members>CaseSelectorTest</members>
         <members>OpptySelectorTest</members>
         <name>ApexClass</name>
-    </types>
+</types>
 ```
 
 ### Visual Force Page
 
 ```
-	<types>
+<types>
         <members>MyTestPage</members>
         <name>ApexPage</name>
-    </types>
+</types>
 ```
 
 ### Lightning Components
@@ -194,5 +194,30 @@ Assignment rules can be for Case or Lead or other objects.
 	<types>
         <members>My_Process_Update_Request</members>
         <name>PermissionSet</name>
+    </types>
+```
+
+## Community
+Deploying Community changes with metadata can be challenging, need ot deploy 3 different items described here bellow.
+
+### Custom Site
+```
+    <types>
+        <members>ECommerce</members>
+        <name>CustomSite</name>
+    </types>
+```
+### Network
+```
+    <types>
+        <members>ECommerce_C</members>
+        <name>SiteDotCom</name>
+    </types>
+```
+### SiteDotCom
+```
+    <types>
+        <members>ECommerce_C</members>
+        <name>SiteDotCom</name>
     </types>
 ```
