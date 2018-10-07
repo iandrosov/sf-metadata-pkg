@@ -39,6 +39,8 @@ Below are examples of supported metadata types tyhat can be managed by Metadata 
 
 ## Declarative Items Section
 
+Note some differences in item definitions, some declarative items use API name with underscroes `_ ` or dashes `-` others uses spaces.
+
 ### SObject
 Sobjects can be standard and custom or custom metadata type. Custom object has `__c` and metadata type `__mdt` postfix.
 For standard object such as `Case` below tag will pull all customizations in single file.
@@ -128,5 +130,67 @@ Export all custom Labels defined in the org. Current Metadata can sdefine indivi
     <types>
         <members>Case.My Validation Name</members>
         <name>ValidationRule</name>
+    </types>
+```
+### Email Template
+```
+	<types>
+        <members>MyFolder/My_Test_Changed_Password</members>
+        <members>MyFolder/My_Test_Forgot_Password</members>
+        <members>NewFolder/My_Welcome_Email</members>
+        <name>EmailTemplate</name>
+    </types>   
+```
+### Workflow Field Update
+```
+	<types>
+        <members>Account.Email_Invalid</members>
+        <members>Lead.Invalid_Email</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+```
+### Workflow Rule
+```
+    <types>
+        <members>Account.Invalid Email Changed or Blank - Account</members>
+        <members>Lead.Invalid Email Changed or Blank - Lead</members>
+        <name>WorkflowRule</name>
+    </types>
+```
+### Record Type
+```
+	<types>
+        <members>Account.recordTypeName</members>
+        <name>RecordType</name>
+    </types>  
+```
+### Assignment Rule
+Assignment rules can be for Case or Lead or other objects.
+
+```
+	<types>
+        <members>Case.Case Assignment Rule</members>
+        <name>AssignmentRule</name>
+    </types>     
+```
+### Business Process
+```
+	<types>
+        <members>Case.Course Update Request</members>
+        <name>BusinessProcess</name>
+    </types>
+```
+### List View
+```
+	<types>
+        <members>Case.Course_Update_Cases</members>
+        <name>ListView</name>
+    </types>
+```
+### Permission Set
+```
+	<types>
+        <members>My_Process_Update_Request</members>
+        <name>PermissionSet</name>
     </types>
 ```
