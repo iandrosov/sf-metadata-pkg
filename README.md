@@ -19,6 +19,15 @@ Below are examples of supported metadata types that can be managed by Metadata A
         <name>ApexClass</name>
 </types>
 ```
+### Apex Trigger
+
+```
+<types>
+        <members>CaseTrigger</members>
+        <members>OpptyTrigger</members>
+        <name>ApexTrigger</name>
+</types>
+```
 
 ### Visual Force Page
 
@@ -68,12 +77,30 @@ For custom objects metadata will have complete object xml definition with all fi
     </types>
 ```
 ### Custom Metadata Type
+Custom Metadata containes object + all of the data. WHile deploying we can copy all the data or sepcific field as example bellow indicate
+
+Copy single field data example:
+
 ```
     <types>
         <members>MY_Settings.My_Community</members>
         <name>CustomMetadata</name>
     </types>
-```    
+```  
+Copy all data and object definition for c=ustiom metadata type `LiveAgent_Custom__mdt` example:
+
+```
+    <types>
+        <members>*</members>
+        <name>CustomMetadata</name>
+    </types>
+    
+    <types>
+        <members>LiveAgent_Custom__mdt</members>
+        <name>CustomObject</name>
+    </types>    
+```  
+  
 ### Static Resource
 Static resources are typically zip files containing images or JavaScript & CSS code or frameworks, data fiels, any file type. Static resources have org wide limit size: 250MB as of Winter '19 release.
 
