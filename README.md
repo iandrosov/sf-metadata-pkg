@@ -210,6 +210,13 @@ Export all custom Labels defined in the org. Current Metadata can sdefine indivi
         <name>EmailTemplate</name>
     </types>   
 ```
+### Leterhead
+```
+ <types>
+  <members>*</members>
+  <name>Letterhead</name>
+ </types> 
+```
 ### Record Type
 ```
     <types>
