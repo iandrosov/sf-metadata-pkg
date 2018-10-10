@@ -134,6 +134,13 @@ Copy all data and object definition for c=ustiom metadata type `LiveAgent_Custom
         <name>CustomObject</name>
     </types>    
 ```  
+### Platform Event
+```
+    <types>
+        <members>EventName__e</members>
+        <name>CustomObject</name>
+    </types>
+```
 ### Document
 ```
     <types>
