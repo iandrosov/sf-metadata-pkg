@@ -60,6 +60,13 @@ Below are examples of supported metadata types that can be managed by Metadata A
         <name>AuraDefinitionBundle</name>
     </types>
 ```
+### Lightning App Page - Flexipage
+```
+    <types>
+        <members>My_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+```
 
 ## Declarative Items Section
 
@@ -266,6 +273,25 @@ Assignment rules can be for Case or Lead or other objects.
     <types>
         <members>TestProfile</members>
         <name>Profile</name>
+    </types>
+```
+### Role
+```
+    <types>
+          <members>*</members>
+          <name>Role</name>
+    </types>
+```
+### Queue
+    <types>
+          <members>*</members>
+          <name>Queue</name>
+    </types>
+### Public Group
+```
+    <types>
+          <members>*</members>
+          <name>Group</name>
     </types>
 ```
 ### Home Page

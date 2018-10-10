@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <!-- Custom Object Tab, Web Tab and Visualforce tab -->
+    <types>
+        <members>Employee__c</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexPage</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ApexTrigger</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+    <types>
+        <members>Activity.Closed__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>*</members>
+        <members>Account</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+    <types>
+        <members>Images/Logo.png</members>
+        <name>Document</name>
+    </types>
+    <!--     For retrieving and deploying Email Templates, folder name is mandatory       -->
+    <types>
+        <members>unfiled$public/Test_Notification</members>
+        <members>EmailTemplates/InquiryPortal</members>
+        <name>EmailTemplate</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageLayout</name>
+    </types>
+    <!-- Home Page Custom Link -->
+    <types>
+        <members>*</members>
+        <name>CustomPageWebLink</name>
+    </types>
+   <types> 
+        <members>Account.My_Account_Team</members> 
+        <name>ListView</name> 
+   </types>
+    <types>
+        <members>Account-Account Layout</members>
+        <name>Layout</name>
+    </types>
+    <types>
+        <members>Analyst</members>
+        <name>Profile</name>
+    </types>
+    <types>
+        <members>ExtraReports</members><!--Report Folder-->
+        <members>ExtraReports/AnyOccupation</members><!--Report-->
+        <members>unfiled$public/Test</members><!--Report from Unfiled Public Reports-->
+        <name>Report</name>
+    </types>
+    <types>
+        <members>ExtraDashboards</members><!--Dashboard Folder-->
+        <members>ExtraDashboards/AnyOccupation</members><!--Dashboard-->
+        <name>Dashboard</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ReportType</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>StaticResource</name>
+    </types>
+    <types>
+        <members>Contact.SelectTitle</members>
+        <name>WebLink</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>PermissionSet</name>
+    </types>
+     <types>
+        <members>*</members>
+        <name>QuickAction</name>
+    </types>
+    <!-- 
+    Workflow includes WorkflowFieldUpdate,
+    WorkflowAlert, WorkflowOutboundMessage, WorkflowRule
+    -->
+    <types>
+        <members>ObjectName.WorkFlowName</members>
+        <name>Workflow</name>
+    </types>  
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowAlert</name>
+    </types>
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowOutboundMessage</members>
+    </types>
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowRule</name>
+    </types>
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowTask</name>
+    </types>
+    <!--        Custom Button/Link         -->
+    <types>
+        <members>Directory_Edition__c.Final_Letter_Renewal</members>
+        <name>WebLink</name>  
+    </types>
+    <!--        Standard Tabs and Fields renames        -->
+    <types>
+          <members>*</members>
+          <name>CustomObjectTranslation</name>
+    </types>
+    <!--        Validation Rules        -->
+    <types>
+        <members>Object Name.Validation Name</members>
+        <name>ValidationRule</name>
+    </types>   
+    <!--        Record Types        -->
+    <types>
+        <members>Object Name.Record Type Name</members>
+        <name>RecordType</name>
+    </types>  
+    <!--       Role        -->
+    <types>
+          <members>*</members>
+          <name>Role</name>
+    </types>
+    <!--       Queue        -->
+    <types>
+          <members>*</members>
+          <name>Queue</name>
+    </types>
+    <!--       Public Group        -->
+    <types>
+          <members>*</members>
+          <name>Group</name>
+    </types>
+    <!--      Custom Labels        -->
+    <types>
+          <members>*</members>
+          <name>CustomLabel</name>
+    </types>
+    <!--      LetterHead       -->
+    <types>
+        <members>*</members>
+        <name>Letterhead</name>
+    </types> 
+    <!--      Process Builder and Flow  -->
+    <types>
+        <members>*</members>
+        <name>Flow</name>
+    </types>
+    <types>
+        <members>LogACall</members><!--Global Action -->
+        <members>Task.TestingAction</members><!--Object Quick Action -->
+    <name>QuickAction</name>
+    </types>
+    <!-- Platform Event -->
+    <types>
+        <members>EventName__e</members>
+        <name>CustomObject</name>
+    </types>
+    <!-- Sharing Rule -->
+    <types>
+        <members>Account.*</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+    <types>
+        <members>Account.*</members>
+        <name>SharingOwnerRule</name>
+    </types> 
+    <types>
+        <members>ComponentName</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <types>
+        <members>Account_Record_Page</members>
+        <name>FlexiPage</name>
+    </types>
+    <!-- Duplicate Rule -->
+    <types>
+        <members>Lead.Test_Duplicates_Rule</members>
+        <name>DuplicateRule</name>
+    </types>
+    <!-- Matching Rule -->
+    <types>
+        <members>Lead.Test_Lead_Matching_Rule</members>
+        <name>MatchingRule</name>
+    </types>
+    <version>43.0</version>
+</Package>
