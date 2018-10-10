@@ -9,6 +9,13 @@ Below are examples of supported metadata types that can be managed by Metadata A
 
 ## Code Items Section
 
+### Custom Application
+```
+    <types>
+        <members>*</members>
+        <name>CustomApplication</name>
+    </types>
+```
 ### Apex Class
 
 ```
@@ -37,7 +44,13 @@ Below are examples of supported metadata types that can be managed by Metadata A
         <name>ApexPage</name>
 </types>
 ```
-
+### Apex Component
+```
+    <types>
+        <members>*</members>
+        <name>ApexComponent</name>
+    </types>
+```    
 ### Lightning Components
 
 ```
