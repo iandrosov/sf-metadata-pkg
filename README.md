@@ -89,6 +89,20 @@ For custom objects metadata will have complete object xml definition with all fi
         <name>CustomField</name>
     </types>
 ```
+### Custom Tab
+```
+    <types>
+        <members>*</members>
+        <name>CustomTab</name>
+    </types>
+```
+### Custom Object translation
+```
+    <types>
+          <members>*</members>
+          <name>CustomObjectTranslation</name>
+    </types>
+```
 ### Custom Metadata Type
 Custom Metadata containes object + all of the data. WHile deploying we can copy all the data or sepcific field as example bellow indicate
 
@@ -113,7 +127,13 @@ Copy all data and object definition for c=ustiom metadata type `LiveAgent_Custom
         <name>CustomObject</name>
     </types>    
 ```  
-  
+### Document
+```
+    <types>
+        <members>Images/Logo.png</members>
+        <name>Document</name>
+    </types>
+```  
 ### Static Resource
 Static resources are typically zip files containing images or JavaScript & CSS code or frameworks, data fiels, any file type. Static resources have org wide limit size: 250MB as of Winter '19 release.
 
@@ -183,22 +203,6 @@ Export all custom Labels defined in the org. Current Metadata can sdefine indivi
         <name>EmailTemplate</name>
     </types>   
 ```
-### Workflow Field Update
-```
-    <types>
-        <members>Account.Email_Invalid</members>
-        <members>Lead.Invalid_Email</members>
-        <name>WorkflowFieldUpdate</name>
-    </types>
-```
-### Workflow Rule
-```
-    <types>
-        <members>Account.Invalid Email Changed or Blank - Account</members>
-        <members>Lead.Invalid Email Changed or Blank - Lead</members>
-        <name>WorkflowRule</name>
-    </types>
-```
 ### Record Type
 ```
     <types>
@@ -229,6 +233,27 @@ Assignment rules can be for Case or Lead or other objects.
         <name>ListView</name>
     </types>
 ```
+### Reports
+```
+<types>
+        <members>ExtraReports</members><!--Report Folder-->
+        <members>ExtraReports/AnyOccupation</members><!--Report-->
+        <members>unfiled$public/Test</members><!--Report from Unfiled Public Reports-->
+        <name>Report</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>ReportType</name>
+    </types>
+```
+### Dashboard
+```
+    <types>
+        <members>MyDashboards</members><!--Dashboard Folder-->
+        <members>MyDashboards/AnyCourseType</members><!--Dashboard-->
+        <name>Dashboard</name>
+    </types>
+```
 ### Permission Set
 ```
     <types>
@@ -236,7 +261,74 @@ Assignment rules can be for Case or Lead or other objects.
         <name>PermissionSet</name>
     </types>
 ```
-
+### Profile
+```
+    <types>
+        <members>TestProfile</members>
+        <name>Profile</name>
+    </types>
+```
+### Home Page
+```
+    <types>
+        <members>*</members>
+        <name>HomePageComponent</name>
+    </types>
+    <types>
+        <members>*</members>
+        <name>HomePageLayout</name>
+    </types>
+	<!-- Home Page Custom Link -->
+    <types>
+        <members>*</members>
+        <name>CustomPageWebLink</name>
+    </types>
+```
+## Workflow
+### Worklow
+```
+    <types>
+        <members>ObjectName.WorkFlowName</members>
+        <name>Workflow</name>
+    </types> 
+```     
+### Workflow Field Update
+```
+    <types>
+        <members>Account.Email_Invalid</members>
+        <members>Lead.Invalid_Email</members>
+        <name>WorkflowFieldUpdate</name>
+    </types>
+```
+### Workflow Alert
+```
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowAlert</name>
+    </types>
+```
+### WF Outbound Message
+```
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowOutboundMessage</members>
+    </types>
+```
+### Workflow Rule
+```
+    <types>
+        <members>Account.Invalid Email Changed or Blank - Account</members>
+        <members>Lead.Invalid Email Changed or Blank - Lead</members>
+        <name>WorkflowRule</name>
+    </types>
+```
+### Workflow Task
+```
+    <types>
+        <members>ObjectName.FieldUpdateName</members>
+        <name>WorkflowTask</name>
+    </types>
+```
 ## Community
 Deploying Community changes with metadata can be challenging, need ot deploy 3 different items described here bellow.
 
