@@ -19,30 +19,29 @@ Below are examples of supported metadata types that can be managed by Metadata A
 ### Apex Class
 
 ```
-<types>
+    <types>
         <members>CaseSelector</members>
         <members>CaseSelectorTest</members>
-        <members>OpptySelectorTest</members>
         <name>ApexClass</name>
-</types>
+    </types>
 ```
 ### Apex Trigger
 
 ```
-<types>
+    <types>
         <members>CaseTrigger</members>
         <members>OpptyTrigger</members>
         <name>ApexTrigger</name>
-</types>
+    </types>
 ```
 
 ### Visual Force Page
 
 ```
-<types>
+    <types>
         <members>MyTestPage</members>
         <name>ApexPage</name>
-</types>
+    </types>
 ```
 ### Apex Component
 ```
