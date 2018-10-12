@@ -3,11 +3,27 @@ Reference of Deployment tags for package.xml on supported Metadata types. While 
 [Metadata API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_objects_intro.htm) is a good resource but does not give all tags especially with naming of items differences.
 
 
-This guide is a work ion progressa nd will b eupdated as more items are discovered. It is designed to give comprehensive list of tags and examples use cases that can be applied to package.xml to retrieve or deploy different metadata code and declarative items.
+This guide is a work in progress and will be updated with more supported items. It is designed to give easy reference list of tags and examples use cases that can be applied to package.xml to retrieve or deploy different metadata code and declarative items. For complete list of supported metadata items can be found at [Metadata Coverage report API v44.0](https://developer.salesforce.com/docs/metadata-coverage/44)
 
 Below are examples of supported metadata types that can be managed by Metadata API via ANT or DX tools
 
 ## Code Items Section
+
+### Access Control Policy
+```
+    <types>
+        <members>*</members>
+        <name>AccessControlPolicy</name>
+    </types>
+```
+
+### Account Settings
+```
+    <types>
+        <members>*</members>
+        <name>AccountSettings</name>
+    </types>
+```
 
 ### Custom Application
 ```
