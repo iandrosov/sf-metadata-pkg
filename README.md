@@ -24,6 +24,35 @@ Below are examples of supported metadata types that can be managed by Metadata A
         <name>AccountSettings</name>
     </types>
 ```
+### Action Link Group Template
+```
+    <types>
+        <members>*</members>
+        <name>ActionLinkGroupTemplate</name>
+    </types>
+```
+### Activities Settings
+```
+    <types>
+        <members>*</members>
+        <name>ActivitiesSettings</name>
+    </types>
+```
+### Address Settings
+```
+    <types>
+        <members>*</members>
+        <name>AddressSettings</name>
+    </types>
+```
+### Analytic Snapshot
+```
+    <types>
+        <members>*</members>
+        <name>AnalyticSnapshot</name>
+    </types>
+```
+
 
 ### Custom Application
 ```
