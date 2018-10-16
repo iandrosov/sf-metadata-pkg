@@ -95,6 +95,17 @@ Below are examples of supported metadata types that can be managed by Metadata A
         <name>ApexComponent</name>
     </types>
 ```    
+### Apex Test Suite
+
+Test suite is set up in Developer Console to collect relevant unit tests ot execute as groups
+
+```
+    <types>
+        <members>*</members>
+        <name>ApexTestSuite</name>
+    </types>
+```    
+
 ### Lightning Components
 
 ```
@@ -115,6 +126,14 @@ Below are examples of supported metadata types that can be managed by Metadata A
 ## Declarative Items Section
 
 Note some differences in item definitions, some declarative items use API name with underscroes `_ ` or dashes `-` others uses spaces.
+
+### AppMenu
+```
+    <types>
+        <members>*</members>
+        <name>AppMenu</name>
+    </types>
+```
 
 ### SObject
 Sobjects can be standard and custom or custom metadata type. Custom object has `__c` and metadata type `__mdt` postfix.
