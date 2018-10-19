@@ -267,13 +267,23 @@ The example below describe layout for Cutom metadata
     </types>  
 ```  
 ### Compact Layout
-This item represents Lightning App definition (different from actual app build with APpBuilder or code)
 ```
     <types>
         <members>Lead.Corp_B2B</members>
         <members>Opportunity.Corp_B2B</members>
         <members>Account.Corp_B2B</members>
         <name>CompactLayout</name>
+    </types>
+```
+### FlexiPages
+This item can represent Lightning App definition (different from actual app build with APpBuilder or code)
+
+```
+    <types>
+        <members>Opp_Corp_Record_Page</members>
+        <members>Corp_Lead_Record_Page</members>
+        <members>Corporate_Account_Record_Page</members>      
+        <name>FlexiPage</name>
     </types>
 ```
 ### Flow or Process Builder
