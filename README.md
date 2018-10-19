@@ -266,6 +266,16 @@ The example below describe layout for Cutom metadata
         <name>Layout</name>
     </types>  
 ```  
+### Compact Layout
+This item represents Lightning App definition (different from actual app build with APpBuilder or code)
+```
+    <types>
+        <members>Lead.Corp_B2B</members>
+        <members>Opportunity.Corp_B2B</members>
+        <members>Account.Corp_B2B</members>
+        <name>CompactLayout</name>
+    </types>
+```
 ### Flow or Process Builder
 Automation items such as Flows or Process Builders are represented by `Flow` tag. Note a version number on flow tag after name indicates what version of PB or FLOW is used `Create_Lead_Activities-2`
 
