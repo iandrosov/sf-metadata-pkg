@@ -60,6 +60,13 @@ Below are examples of supported metadata types that can be managed by Metadata A
         <members>*</members>
         <name>CustomApplication</name>
     </types>
+    
+    // named app
+    <types>
+        <members>Corporate_Clients_App</members>
+        <name>CustomApplication</name>
+    </types>  
+    
 ```
 ### Apex Class
 
@@ -210,7 +217,20 @@ Copy all data and object definition for c=ustiom metadata type `LiveAgent_Custom
         <members>Images/Logo.png</members>
         <name>Document</name>
     </types>
-```  
+``` 
+### Sharing Criteria Rules
+```
+    <types>
+        <members>Case.All_Access_User</members>
+        <members>Case.DOC_Only_User</members>
+        <members>Case.Market_Mgr</members>
+	.
+	.
+	. 100s of rules
+        <members>Case.VAT_Mgr</members>
+        <name>SharingCriteriaRule</name>
+    </types>
+```
 ### Static Resource
 Static resources are typically zip files containing images or JavaScript & CSS code or frameworks, data fiels, any file type. Static resources have org wide limit size: 250MB as of Winter '19 release.
 
@@ -370,6 +390,15 @@ Assignment rules can be for Case or Lead or other objects.
           <members>*</members>
           <name>Group</name>
     </types>
+    
+    // Groups names
+    <types>
+        <members>HR_Mgr</members>
+        <members>Sales_Mgr</members>
+        <members>Market_West_Mgr</members>
+        <members>Market_East_Mgr</members>
+        <name>Group</name>
+    </types>    
 ```
 ### Home Page
 ```
