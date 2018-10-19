@@ -400,10 +400,18 @@ Assignment rules can be for Case or Lead or other objects.
     </types>
 ```
 ### Queue
+```
     <types>
           <members>*</members>
           <name>Queue</name>
     </types>
+    // named queue
+    <types>
+        <members>B2B_Lead_Q</members>
+        <members>Corporate_Q</members>   
+        <name>Queue</name>
+    </types>    
+```    
 ### Public Group
 ```
     <types>
