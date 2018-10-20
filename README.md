@@ -1,5 +1,5 @@
 # sf-metadata-pkg
-Reference of Deployment tags for package.xml on supported Metadata types. While working with Salesforce Deployment tools like [ANT Deployment tool](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ant.htm) and [Salesforce DX](https://developer.salesforce.com/platform/dx) I continue to search for various metadata tags used by package.xml file. Unfortunate I did not find a single place where all is documented. 
+Reference of Deployment tags for package.xml on supported Metadata types. While working with Salesforce Deployment tools like [ANT Deployment tool](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ant.htm) and [Salesforce DX](https://developer.salesforce.com/platform/dx) I continue to search for various metadata tags used by package.xml file. Unfortunate I did not find a single place where all of these tags are documented. 
 [Metadata API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_objects_intro.htm) is a good resource but does not give all tags especially with naming of items differences.
 
 
