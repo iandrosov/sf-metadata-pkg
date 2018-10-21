@@ -52,7 +52,14 @@ Below are examples of supported metadata types that can be managed by Metadata A
         <name>AnalyticSnapshot</name>
     </types>
 ```
+### Approval Process
 
+```
+    <types>
+        <members>*</members>
+        <name>ApprovalProcess</name>
+    </types>
+```
 
 ### Custom Application
 ```
@@ -512,4 +519,12 @@ Deploying Community changes with metadata can be challenging, need ot deploy 3 d
         <members>ECommerce_C</members>
         <name>SiteDotCom</name>
     </types>
+```
+### Audience
+```
+    <types>
+        <members>*</members>
+        <name>Audience</name>
+    </types>
+
 ```
