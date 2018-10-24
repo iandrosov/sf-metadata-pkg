@@ -513,6 +513,14 @@ Deploying Community changes with metadata can be challenging, need ot deploy 3 d
         <name>SiteDotCom</name>
     </types>
 ```
+### NetworkBranding
+```
+    <types>
+        <members>*</members>
+        <name>NetworkBranding</name>
+    </types>
+```
+
 ### SiteDotCom
 ```
     <types>
