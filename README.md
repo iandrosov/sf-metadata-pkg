@@ -509,8 +509,8 @@ Deploying Community changes with metadata can be challenging, need ot deploy 3 d
 ### Network
 ```
     <types>
-        <members>ECommerce_C</members>
-        <name>SiteDotCom</name>
+        <members>ECommerce</members>
+        <name>Network</name>
     </types>
 ```
 ### NetworkBranding
