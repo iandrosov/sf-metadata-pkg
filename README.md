@@ -294,7 +294,7 @@ This item can represent Lightning App definition (different from actual app buil
     </types>
 ```
 ### Flow or Process Builder
-Automation items such as Flows or Process Builders are represented by `Flow` tag. Note a version number on flow tag after name indicates what version of PB or FLOW is used `Create_Lead_Activities-2`
+Automation items such as Flows or Process Builders are represented by `Flow` tag. Note a version number on flow tag after name indicates what version of PB or FLOW is used `Create_Lead_Activities-2`, format is <API Name of Process Builder/Flow>-<Version number>. Make sure the correct version is also Active process you are trying ot deploy.
 
 ```
     <types>
