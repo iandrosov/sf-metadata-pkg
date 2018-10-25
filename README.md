@@ -1,6 +1,6 @@
 # sf-metadata-pkg
-Reference of Deployment tags for package.xml on supported Metadata types. While working with Salesforce Deployment tools like [ANT Deployment tool](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ant.htm) and [Salesforce DX](https://developer.salesforce.com/platform/dx) I continue to search for various metadata tags used by package.xml file. Unfortunate I did not find a single place where all of these tags are documented. 
-[Metadata API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_objects_intro.htm) is a good resource but does not give all tags especially with naming of items differences.
+Reference of Deployment tags for package.xml on supported Metadata types. While working with Salesforce Deployment tools like [ANT Deployment tool](https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_deploying_ant.htm) and [Salesforce DX](https://developer.salesforce.com/platform/dx) I continue to search for various metadata tags used by package.xml file. Unfortunately I did not find a single place where all of these tags are documented. 
+[Metadata API Developer Guide](https://developer.salesforce.com/docs/atlas.en-us.api_meta.meta/api_meta/meta_objects_intro.htm) is a good resource but does not give all tags especially with naming of items differences. There is also existing hallenge to find actual item names or API anmes that sometime use _ separators.
 
 
 This guide is a work in progress and will be updated with more supported items. It is designed to give easy reference list of tags and examples use cases that can be applied to package.xml to retrieve or deploy different metadata code and declarative items. For complete list of supported metadata items can be found at [Metadata Coverage report API v44.0](https://developer.salesforce.com/docs/metadata-coverage/44)
@@ -283,7 +283,7 @@ The example below describe layout for Cutom metadata
     </types>
 ```
 ### FlexiPages
-This item can represent Lightning App definition (different from actual app build with APpBuilder or code)
+This item can represent Lightning App definition that is different from actual app we build with AppBuilder or with code.
 
 ```
     <types>
