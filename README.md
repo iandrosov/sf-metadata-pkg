@@ -522,12 +522,21 @@ Deploying Community changes with metadata can be challenging, need ot deploy 3 d
 ```
 
 ### SiteDotCom
+In the prior versions of metadata before 43.0 it was this:
 ```
     <types>
         <members>ECommerce_C</members>
         <name>SiteDotCom</name>
     </types>
 ```
+No with metadata API V44.0 SiteDocCom changed to this:
+```
+    <types>
+        <members>ECommerce1</members>
+        <name>SiteDotCom</name>
+    </types>
+```
+
 ### Audience
 ```
     <types>
