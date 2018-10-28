@@ -119,6 +119,20 @@ Test suite is set up in Developer Console to collect relevant unit tests ot exec
         <name>ApexTestSuite</name>
     </types>
 ```    
+### AuthProvider
+```
+    <types>
+        <members>*</members>
+        <name>AuthProvider</name>
+    </types>
+```    
+### AutoResponseRules
+```
+    <types>
+        <members>*</members>
+        <name>AutoResponseRules</name>
+    </types>
+```    
 
 ### Lightning Components
 
