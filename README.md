@@ -527,6 +527,14 @@ Assignment rules can be for Case or Lead or other objects.
 ## Community
 Deploying Community changes with metadata can be challenging, need ot deploy 3 different items described here bellow.
 
+### BrandingSet
+```
+    <types>
+        <members>*</members>
+        <name>BrandingSet</name>
+    </types>
+```
+
 ### Custom Site
 ```
     <types>
