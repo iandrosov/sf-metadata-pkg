@@ -133,6 +133,20 @@ Test suite is set up in Developer Console to collect relevant unit tests ot exec
         <name>AutoResponseRules</name>
     </types>
 ```    
+### Bot
+```
+    <types>
+        <members>*</members>
+        <name>Bot</name>
+    </types>
+```    
+### BotVersion
+```
+    <types>
+        <members>*</members>
+        <name>BotVersion</name>
+    </types>
+```    
 
 ### Lightning Components
 
