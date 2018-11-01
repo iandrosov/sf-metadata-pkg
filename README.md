@@ -191,6 +191,20 @@ Note some differences in item definitions, some declarative items use API name w
         <name>AppMenu</name>
     </types>
 ```
+### Call Center
+```
+    <types>
+        <members>*</members>
+        <name>CallCenter</name>
+    </types>
+```
+### Campaign Influence Model
+```
+    <types>
+        <members>*</members>
+        <name>CampaignInfluenceModel</name>
+    </types>
+```
 
 ### SObject
 Sobjects can be standard and custom or custom metadata type. Custom object has `__c` and metadata type `__mdt` postfix.
