@@ -147,6 +147,21 @@ Test suite is set up in Developer Console to collect relevant unit tests ot exec
         <name>BotVersion</name>
     </types>
 ```    
+### BusinessHoursEntry
+```
+    <types>
+        <members>*</members>
+        <name>BusinessHoursEntry</name>
+    </types>
+```    
+
+### BusinessHoursSettings
+```
+    <types>
+        <members>*</members>
+        <name>BusinessHoursSettings</name>
+    </types>
+```    
 
 ### Lightning Components
 
