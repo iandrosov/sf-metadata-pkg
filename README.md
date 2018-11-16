@@ -205,7 +205,27 @@ Note some differences in item definitions, some declarative items use API name w
         <name>CampaignInfluenceModel</name>
     </types>
 ```
-
+### CaseSettings
+```
+    <types>
+        <members>*</members>
+        <name>CaseSettings</name>
+    </types>
+```
+### CaseSubjectParticle
+```
+    <types>
+        <members>*</members>
+        <name>CaseSubjectParticle</name>
+    </types>
+```
+### Certificate
+```
+    <types>
+        <members>*</members>
+        <name>Certificate</name>
+    </types>
+```
 ### SObject
 Sobjects can be standard and custom or custom metadata type. Custom object has `__c` and metadata type `__mdt` postfix.
 For standard object such as `Case` below tag will pull all customizations in single file.
