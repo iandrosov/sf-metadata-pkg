@@ -226,6 +226,15 @@ Note some differences in item definitions, some declarative items use API name w
         <name>Certificate</name>
     </types>
 ```
+### ChannelLayout
+```
+    <types>
+        <members>*</members>
+        <name>ChannelLayout</name>
+    </types>
+```
+
+
 ### SObject
 Sobjects can be standard and custom or custom metadata type. Custom object has `__c` and metadata type `__mdt` postfix.
 For standard object such as `Case` below tag will pull all customizations in single file.
