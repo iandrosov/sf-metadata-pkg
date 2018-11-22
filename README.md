@@ -233,6 +233,13 @@ Note some differences in item definitions, some declarative items use API name w
         <name>ChannelLayout</name>
     </types>
 ```
+### ContentAsset
+```
+    <types>
+        <members>*</members>
+        <name>ContentAsset</name>
+    </types>
+```
 
 
 ### SObject
