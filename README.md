@@ -599,6 +599,29 @@ Deploying Community changes with metadata can be challenging, need ot deploy 3 d
         <name>BrandingSet</name>
     </types>
 ```
+### Community
+```
+    <types>
+        <members>*</members>
+        <name>Community</name>
+    </types>
+```
+
+### CommunityTemplateDefinition
+```
+    <types>
+        <members>*</members>
+        <name>CommunityTemplateDefinition</name>
+    </types>
+```
+
+### CommunityThemeDefinition
+```
+    <types>
+        <members>*</members>
+        <name>CommunityThemeDefinition</name>
+    </types>
+```
 
 ### Custom Site
 ```
