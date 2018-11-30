@@ -240,6 +240,13 @@ Note some differences in item definitions, some declarative items use API name w
         <name>ContentAsset</name>
     </types>
 ```
+### ContractSettings
+```
+    <types>
+        <members>*</members>
+        <name>ContractSettings</name>
+    </types>
+```
 
 
 ### SObject
