@@ -247,6 +247,13 @@ Note some differences in item definitions, some declarative items use API name w
         <name>ContractSettings</name>
     </types>
 ```
+### CorsWhitelistOrigin
+```
+    <types>
+        <members>*</members>
+        <name>CorsWhitelistOrigin</name>
+    </types>
+```
 
 
 ### SObject
