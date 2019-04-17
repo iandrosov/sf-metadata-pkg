@@ -233,6 +233,13 @@ Note some differences in item definitions, some declarative items use API name w
         <name>ChannelLayout</name>
     </types>
 ```
+### ConnectedApp
+```
+    <types>
+        <members>MyTestApp</members>
+        <name>ConnectedApp</name>
+    </types>
+```
 ### ContentAsset
 ```
     <types>
