@@ -651,6 +651,14 @@ Deploying Community changes with metadata can be challenging, need ot deploy 3 d
         <name>CustomSite</name>
     </types>
 ```
+### MatchingRule
+```
+    <types>
+        <members>Lead.AMICA_Prospect_Matching_Rule</members>
+        <members>PersonAccount.AMICA_Person_Account_Matching_Rule</members>
+        <name>MatchingRule</name>
+    </types>
+```
 ### Network
 ```
     <types>
