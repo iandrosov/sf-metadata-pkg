@@ -7,6 +7,19 @@ This guide is a work in progress and will be updated with more supported items. 
 
 Below are examples of supported metadata types that can be managed by Metadata API via ANT or DX tools
 
+## New WIN'21 & SPR21
+
+### Prompt - in app guidance metadata
+Prompt example metadata included
+
+```
+    <types>
+        <members>*</members>
+        <name>Prompt</name>
+    </types>
+
+```
+
 ## Code Items Section
 
 ### Access Control Policy
